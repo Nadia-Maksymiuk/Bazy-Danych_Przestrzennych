@@ -1,0 +1,924 @@
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Current FME version: FME 2021.2.0.0 (20211029 - Build 21784 - WIN64)
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME_HOME is 'D:\Program Files\FME\'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Trial Edition (node locked-crc)
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Serial Number: 0
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Temporary License: 6 days left.
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Machine host name is: LAPTOP-LD8KBQ70
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Locale: pl_PL
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|System Encoding: windows-1250
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\cw10/'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'zad2.fmw'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2021.2.0.0'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 19043)
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Platform: WIN64
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|System Status: 3.99 GB of disk space available in the FME temporary folder (C:\Users\Nadia\AppData\Local\Temp\wbrun_1641244264270_2400\fmetmp_0)
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|System Status: 15.88 GB of physical memory available
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|System Status: 63.51 GB of virtual memory available
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|START - ProcessID: 772, peak process memory usage: 41796 kB, current process memory usage: 41796 kB
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `D:\Program Files\FME\fme.exe' `C:/Users/Nadia/Desktop/STUDIA/BAZY_DANYCH_PRZESTRZENNYCH/cw10\wb-xlate-1641244270936_2400' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{c20644a2-f4f6-4997-9e5d-88edbbd9cb21}'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\Nadia\AppData\Roaming\Safe Software\FME\'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Shared folders for formats are : D:\Program Files\FME\datasources;C:\Users\Nadia\Documents\FME\Formats
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\Nadia\AppData\Roaming\Safe Software\FME\Packages\21784-win64\transformers;D:\Program Files\FME\transformers;C:\Users\Nadia\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\Nadia\Documents\FME\CoordinateSystems
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\Nadia\Documents\FME\CoordinateSystemExceptions
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\Nadia\Documents\FME\CoordinateSystemGridOverrides
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\Nadia\Documents\FME\CsmapTransformationExceptions
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\Nadia\Documents\FME\TransformerCategories
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\cw10'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\Nadia\AppData\Local\Temp\wbrun_1641244264270_2400\fmetmp_0', set from environment variable `FME_TEMP'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\Nadia\AppData\Local\Temp'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `D:\Program Files\FME\'
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.63 GB
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.73 GB
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Creating writer for format: 
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Creating reader for format: 
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding TIFF Reader with keyword TIFF_1
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|FME Configuration: Reading 56 dataset(s) with TIFF reader identified by TIFF_1
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|MULTI_READER(TIFF_1): Will continue past member reader failures
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|MULTI_READER(TIFF_1): Adding TIFF Reader with keyword TIFF_1
+2022-01-03 22:11:19|   0.0|  0.0|INFORM|Using Multi Reader with keyword `TIFF_1' to read multiple datasets
+2022-01-03 22:11:19|   0.1|  0.1|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:11:19|   0.2|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|Loaded module 'TIFF' from file 'D:\Program Files\FME\plugins/gdal/GDAL.dll'
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\HP.tif'
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|Loaded module 'LogCount_func' from file 'D:\Program Files\FME\plugins/LogCount_func.dll'
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20210302)
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|Loaded module 'PythonFactory' from file 'D:\Program Files\FME\plugins/PythonFactory.dll'
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20210302)
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|Using Python interpreter from `D:\Program Files\FME\fmepython38\python38.dll' with PYTHONHOME `D:\Program Files\FME\fmepython38'
+2022-01-03 22:11:19|   0.2|  0.0|INFORM|Python version 3.8 loaded successfully
+2022-01-03 22:11:19|   0.3|  0.1|INFORM|Adding folder `C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\cw10\' to the python path
+2022-01-03 22:11:20|   0.7|  0.4|INFORM|The EPSG number of the FME coordinate system 'OSGB-GPS-2015-OSTN15' is '27700'
+2022-01-03 22:11:20|   0.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:11:20|   0.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:11:20|   0.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_TIFF -1 15 -1  0  6869f451c92e1c46670ccbae67776757d872e23f.ffsupdating'
+2022-01-03 22:11:20|   0.8|  0.1|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for 'OSGB-GPS-2015-OSTN15' -> 'LL-WGS84', and is not guaranteed to remain the same in future releases of FME
+2022-01-03 22:11:20|   0.8|  0.0|INFORM|Reprojector: Using transformation `ETRS89/01_to_WGS84,Forward(Geocentric)' when reprojecting from OSGB-GPS-2015-OSTN15 to LL-WGS84
+2022-01-03 22:11:20|   0.8|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:11:20|   0.9|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4055, 4062)
+2022-01-03 22:11:20|   0.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00046399532592785435, 0.00022437105078520393)
+2022-01-03 22:11:20|   0.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 1200000), (500000, 1300000) to (-2.001882540089086, 60.67072147418762), (-0.11713352617014161, 61.580546085121625)
+2022-01-03 22:11:20|   0.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_Reprojector -1 3 fo 0 REPROJECTED  0  550bfb1aacc73c66182917fcb83c582011a598f0.ffsupdating'
+2022-01-03 22:11:20|   1.0|  0.1|INFORM|CS-MAP Reprojector: Transformation will be automatically selected for 'LL-WGS84' -> 'OSGB-GPS-2015-OSTN15', and is not guaranteed to remain the same in future releases of FME
+2022-01-03 22:11:20|   1.0|  0.0|INFORM|Reprojector: Using transformation `ETRS89/01_to_WGS84,Inverse(Geocentric)' when reprojecting from LL-WGS84 to OSGB-GPS-2015-OSTN15
+2022-01-03 22:11:25|   5.9|  4.9|INFORM|FFS writer: Completed 52.65% of intermediate processing
+2022-01-03 22:11:30|  10.8|  4.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:11:30|  10.8|  0.0|INFORM|Loaded module 'RasterProperties_func' from file 'D:\Program Files\FME\plugins/RasterProperties_func.dll'
+2022-01-03 22:11:30|  10.8|  0.0|INFORM|FME API version of module 'RasterProperties_func' matches current internal version (3.8 20210302)
+2022-01-03 22:11:30|  10.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_RasterExtentsCoercer -1 17 fo 0 EXTENTS  0  e8925c5ce74a613b1720b63dd10f5e97446fd584.ffsupdating'
+2022-01-03 22:11:30|  10.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_AttributeCreator -1 7 fo 0 OUTPUT  0  273d7b38ab6bae061705a149ef3d5083debeb741.ffsupdating'
+2022-01-03 22:11:30|  10.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_Input 0 2 0  0  fa50b9c1367ae5ec7044abc3d0993603bc538054.ffsupdating'
+2022-01-03 22:11:30|  10.9|  0.1|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_ParameterFetcher 0 5 fo 0 OUTPUT  0  3bf68c0931c18c04b2409bdf1cbe00f7e2718f57.ffsupdating'
+2022-01-03 22:11:30|  10.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_PythonCaller 0 6 fo 0 OUTPUT  0  b4b9f422bc745b8c1911c8e7b9b5dbad466d7b68.ffsupdating'
+2022-01-03 22:11:30|  10.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_Tester 0 7 fo 0 PASSED  0  01b8ade14ec279395c153d5ae830c4c8c2d0f8e6.ffsupdating'
+2022-01-03 22:11:30|  10.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_AttributeRemover 0 9 fo 0 OUTPUT  0  cb404aef74635cd66a3a3a53f0bbd7d98df4bf84.ffsupdating'
+2022-01-03 22:11:30|  11.1|  0.2|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_DateFormatter 0 11 fo 0 OUTPUT  0  b71d71f91b9278d3a23906164d0e7d3866bd7f13.ffsupdating'
+2022-01-03 22:11:30|  11.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_FilePropertyExtractor -1 9 fo 0 Output  0  5b499713a53658c99a5489d9f673df3cf8656f65.ffsupdating'
+2022-01-03 22:11:30|  11.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_AttributeCreator_2 -1 11 fo 0 OUTPUT  0  4b3cd6da8caceaf14d7e557d4b4fef392dfc283a.ffsupdating'
+2022-01-03 22:11:30|  11.3|  0.2|INFORM|Creating writer for format: Esri Geodatabase (File Geodb Open API)
+2022-01-03 22:11:30|  11.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `FILEGDB'
+2022-01-03 22:11:30|  11.3|  0.0|INFORM|Loaded module 'FILEGDB' from file 'D:\Program Files\FME\plugins/FILEGDB.dll'
+2022-01-03 22:11:30|  11.3|  0.0|INFORM|FME API version of module 'FILEGDB' matches current internal version (3.8 20210302)
+2022-01-03 22:11:30|  11.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2022-01-03 22:11:30|  11.3|  0.0|INFORM|FME API version of module 'FILEGDB' matches current internal version (3.8 20210302)
+2022-01-03 22:11:30|  11.3|  0.0|INFORM|Writer `FILEGDB_1' of type `FILEGDB' using group definition keyword `FILEGDB_1_DEF'
+2022-01-03 22:11:30|  11.3|  0.0|INFORM|FME API version of module 'FILEGDB' matches current internal version (3.8 20210302)
+2022-01-03 22:11:30|  11.4|  0.1|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:11:30|  11.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:11:30|  11.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:11:30|  11.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\HT.tif'
+2022-01-03 22:11:30|  11.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:11:30|  11.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:11:30|  11.5|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:11:31|  11.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4054, 4055)
+2022-01-03 22:11:31|  11.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.000451356674268362, 0.0002244556229628121)
+2022-01-03 22:11:31|  11.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 1100000), (400000, 1200000) to (-3.8319651809511064, 59.77328094137783), (-2.0017138667928984, 60.68322403686907)
+2022-01-03 22:11:36|  16.5|  5.0|INFORM|FFS writer: Completed 46.99% of intermediate processing
+2022-01-03 22:11:41|  21.5|  5.0|INFORM|FFS writer: Completed 94.91% of intermediate processing
+2022-01-03 22:11:41|  22.0|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:11:41|  22.0|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:11:41|  22.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:11:41|  22.0|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:11:41|  22.0|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\HU.tif'
+2022-01-03 22:11:41|  22.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:11:41|  22.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:11:41|  22.2|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:11:41|  22.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4054, 4055)
+2022-01-03 22:11:41|  22.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004513603834104869, 0.00022445592682244646)
+2022-01-03 22:11:41|  22.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 1100000), (500000, 1200000) to (-2.0018559950218013, 59.77327975609702), (-0.17158964029227697, 60.68322408343521)
+2022-01-03 22:11:46|  27.2|  5.0|INFORM|FFS writer: Completed 47.08% of intermediate processing
+2022-01-03 22:11:51|  32.1|  4.9|INFORM|FFS writer: Completed 93.61% of intermediate processing
+2022-01-03 22:11:52|  32.8|  0.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:11:52|  32.8|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:11:52|  32.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:11:52|  32.8|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:11:52|  32.8|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\HW.tif'
+2022-01-03 22:11:52|  32.9|  0.1|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:11:52|  32.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:11:52|  33.0|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:11:52|  33.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4254, 4255)
+2022-01-03 22:11:52|  33.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004381523337601139, 0.00022432619167343757)
+2022-01-03 22:11:52|  33.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 1000000), (200000, 1100000) to (-7.3320820960946484, 58.782798310731266), (-5.467743915945364, 59.73708193011007)
+2022-01-03 22:11:57|  38.1|  5.1|INFORM|FFS writer: Completed 42.31% of intermediate processing
+2022-01-03 22:12:02|  43.0|  4.9|INFORM|FFS writer: Completed 83.33% of intermediate processing
+2022-01-03 22:12:04|  45.0|  2.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:12:04|  45.0|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:12:04|  45.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:12:04|  45.0|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:12:04|  45.0|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\HX.tif'
+2022-01-03 22:12:04|  45.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:12:04|  45.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:12:04|  45.1|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:12:04|  45.2|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4155, 4155)
+2022-01-03 22:12:04|  45.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004389808196254915, 0.00022443209040541817)
+2022-01-03 22:12:04|  45.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 1000000), (300000, 1100000) to (-5.560307685284469, 58.84073880277433), (-3.736342379740552, 59.773254138408845)
+2022-01-03 22:12:09|  50.1|  4.9|INFORM|FFS writer: Completed 43.36% of intermediate processing
+2022-01-03 22:12:14|  55.1|  5.0|INFORM|FFS writer: Completed 81.56% of intermediate processing
+2022-01-03 22:12:17|  57.6|  2.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:12:17|  57.6|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:12:17|  57.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:12:17|  57.6|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:12:17|  57.6|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\HY.tif'
+2022-01-03 22:12:17|  57.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:12:17|  57.6|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:12:17|  57.8|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:12:17|  57.9|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4052, 4053)
+2022-01-03 22:12:17|  57.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004393956189943665, 0.00022448680324005588)
+2022-01-03 22:12:17|  57.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 1000000), (400000, 1100000) to (-3.782559512285538, 58.87572765402376), (-2.0016890685013706, 59.78534818075247)
+2022-01-03 22:12:22|  62.8|  4.9|INFORM|FFS writer: Completed 38.96% of intermediate processing
+2022-01-03 22:12:27|  67.8|  5.0|INFORM|FFS writer: Completed 78.1% of intermediate processing
+2022-01-03 22:12:30|  70.7|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:12:30|  70.7|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:12:30|  70.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:12:30|  70.7|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:12:30|  70.7|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\HZ.tif'
+2022-01-03 22:12:30|  70.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:12:30|  70.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:12:30|  70.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:12:30|  70.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4052, 4053)
+2022-01-03 22:12:30|  70.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00043939616778892755, 0.00022448516169049876)
+2022-01-03 22:12:30|  70.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 1000000), (500000, 1100000) to (-2.001792778026022, 58.8757343296203), (-0.22092010997749845, 59.7853482047902)
+2022-01-03 22:12:35|  75.8|  5.0|INFORM|FFS writer: Completed 38.96% of intermediate processing
+2022-01-03 22:12:40|  80.8|  5.0|INFORM|FFS writer: Completed 77.93% of intermediate processing
+2022-01-03 22:12:43|  83.7|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:12:43|  83.7|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:12:43|  83.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:12:43|  83.7|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:12:43|  83.7|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NA.tif'
+2022-01-03 22:12:43|  83.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:12:43|  83.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:12:43|  83.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:12:43|  83.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4339, 4339)
+2022-01-03 22:12:43|  83.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00042586492257612956, 0.00022419042194361647)
+2022-01-03 22:12:43|  83.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (0, 900000), (100000, 1000000) to (-8.91196658805323, 57.80996774420568), (-7.0641386889954045, 58.78272998501903)
+2022-01-03 22:12:48|  88.8|  5.0|INFORM|FFS writer: Completed 33.71% of intermediate processing
+2022-01-03 22:12:53|  93.8|  5.0|INFORM|FFS writer: Completed 67.11% of intermediate processing
+2022-01-03 22:12:58|  98.7|  4.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:12:58|  98.7|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:12:58|  98.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:12:58|  98.7|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:12:58|  98.7|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NB.tif'
+2022-01-03 22:12:58|  98.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:12:58|  98.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:12:58|  98.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:12:58|  98.9|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4246, 4246)
+2022-01-03 22:12:58|  98.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004270032491441486, 0.0002243534809776516)
+2022-01-03 22:12:58|  98.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 900000), (200000, 1000000) to (-7.193959498065451, 57.888164784589314), (-5.3809037021993955, 58.84076966482042)
+2022-01-03 22:13:03| 103.9|  5.0|INFORM|FFS writer: Completed 35.28% of intermediate processing
+2022-01-03 22:13:08| 108.8|  4.9|INFORM|FFS writer: Completed 70.44% of intermediate processing
+2022-01-03 22:13:12| 113.1|  4.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:13:12| 113.1|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:13:12| 113.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:13:12| 113.1|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:13:12| 113.1|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NC.tif'
+2022-01-03 22:13:12| 113.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:13:12| 113.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:13:12| 113.2|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:13:12| 113.3|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4150, 4150)
+2022-01-03 22:13:12| 113.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004277690354844908, 0.00022446267235194588)
+2022-01-03 22:13:12| 113.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 900000), (300000, 1000000) to (-5.467798698690948, 57.94415986196082), (-3.692557201430311, 58.8756799522214)
+2022-01-03 22:13:17| 118.2|  4.9|INFORM|FFS writer: Completed 36.81% of intermediate processing
+2022-01-03 22:13:22| 123.2|  5.0|INFORM|FFS writer: Completed 74.02% of intermediate processing
+2022-01-03 22:13:26| 126.8|  3.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:13:26| 126.8|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:13:26| 126.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:13:26| 126.8|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:13:26| 126.8|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\ND.tif'
+2022-01-03 22:13:26| 126.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:13:26| 126.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:13:26| 126.9|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:13:26| 126.9|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4050, 4051)
+2022-01-03 22:13:26| 126.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004281491804264825, 0.00022451804727947297)
+2022-01-03 22:13:26| 126.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 900000), (400000, 1000000) to (-3.73613650815841, 57.978051301335775), (-2.0017041782507294, 58.88734939281764)
+2022-01-03 22:13:31| 131.9|  5.0|INFORM|FFS writer: Completed 38.83% of intermediate processing
+2022-01-03 22:13:36| 137.0|  5.1|INFORM|FFS writer: Completed 78.19% of intermediate processing
+2022-01-03 22:13:39| 139.7|  2.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:13:39| 139.7|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:13:39| 139.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:13:39| 139.7|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:13:39| 139.7|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NF.tif'
+2022-01-03 22:13:39| 139.8|  0.1|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:13:39| 139.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:13:39| 139.8|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:13:39| 140.0|  0.2|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4328, 4328)
+2022-01-03 22:13:39| 140.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00041544847901700825, 0.0002242205266746564)
+2022-01-03 22:13:39| 140.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (0, 800000), (100000, 900000) to (-8.739721423754213, 56.91777045019027), (-6.941660406568602, 57.88819688963818)
+2022-01-03 22:13:44| 145.0|  5.0|INFORM|FFS writer: Completed 35.32% of intermediate processing
+2022-01-03 22:13:49| 150.0|  5.0|INFORM|FFS writer: Completed 75.71% of intermediate processing
+2022-01-03 22:13:52| 152.9|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:13:52| 152.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:13:52| 152.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:13:52| 152.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:13:52| 152.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NG.tif'
+2022-01-03 22:13:52| 152.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:13:52| 152.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:13:52| 153.1|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:13:52| 153.1|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4238, 4238)
+2022-01-03 22:13:52| 153.1|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004165019909859366, 0.00022438422989636795)
+2022-01-03 22:13:52| 153.1|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 800000), (200000, 900000) to (-7.063985632249444, 56.993308015893845), (-5.298850194451044, 57.94424838219465)
+2022-01-03 22:13:57| 158.1|  5.0|INFORM|FFS writer: Completed 42.18% of intermediate processing
+2022-01-03 22:14:02| 163.1|  5.0|INFORM|FFS writer: Completed 84.59% of intermediate processing
+2022-01-03 22:14:04| 164.9|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:14:04| 164.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:14:04| 164.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:14:04| 164.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:14:04| 164.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NH.tif'
+2022-01-03 22:14:04| 164.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:14:04| 164.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:14:04| 165.0|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:14:04| 165.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4145, 4145)
+2022-01-03 22:14:04| 165.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004172094442332653, 0.00022449366536705307)
+2022-01-03 22:14:04| 165.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 800000), (300000, 900000) to (-5.3807576495412635, 57.047434555286486), (-3.651424503194379, 57.97796079823292)
+2022-01-03 22:14:09| 170.1|  5.1|INFORM|FFS writer: Completed 44.84% of intermediate processing
+2022-01-03 22:14:14| 175.1|  5.0|INFORM|FFS writer: Completed 89.57% of intermediate processing
+2022-01-03 22:14:15| 176.4|  1.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:14:15| 176.4|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:14:15| 176.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:14:15| 176.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:14:15| 176.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NJ.tif'
+2022-01-03 22:14:15| 176.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:14:15| 176.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:14:15| 176.5|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:14:15| 176.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4049, 4049)
+2022-01-03 22:14:15| 176.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00041756506574318824, 0.00022454794225173816)
+2022-01-03 22:14:15| 176.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 800000), (400000, 900000) to (-3.6924870740024955, 57.08003078401143), (-2.001766122808326, 57.989225402188715)
+2022-01-03 22:14:20| 181.5|  5.0|INFORM|FFS writer: Completed 47.61% of intermediate processing
+2022-01-03 22:14:25| 186.5|  5.0|INFORM|FFS writer: Completed 94.98% of intermediate processing
+2022-01-03 22:14:26| 187.0|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:14:26| 187.0|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:14:26| 187.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:14:26| 187.0|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:14:26| 187.0|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NK.tif'
+2022-01-03 22:14:26| 187.1|  0.1|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:14:26| 187.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:14:26| 187.2|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:14:26| 187.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4048, 4049)
+2022-01-03 22:14:26| 187.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004175691157551019, 0.0002245482826035224)
+2022-01-03 22:14:26| 187.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 800000), (500000, 900000) to (-2.001685193721353, 57.08025397521357), (-0.31094784402894526, 57.98922542319263)
+2022-01-03 22:14:31| 192.2|  5.0|INFORM|FFS writer: Completed 46.66% of intermediate processing
+2022-01-03 22:14:36| 197.2|  5.0|INFORM|FFS writer: Completed 93.18% of intermediate processing
+2022-01-03 22:14:37| 197.9|  0.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:14:37| 197.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:14:37| 197.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:14:37| 197.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:14:37| 197.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NL.tif'
+2022-01-03 22:14:37| 198.0|  0.1|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:14:37| 198.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:14:37| 198.1|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:14:37| 198.1|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4317, 4318)
+2022-01-03 22:14:37| 198.1|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004056187364783582, 0.00022424875785878996)
+2022-01-03 22:14:37| 198.1|  0.0|INFORM|Reprojector: Recalculating raster extents from (0, 700000), (100000, 800000) to (-8.577358411691636, 56.02528553620429), (-6.825896707578085, 56.993367423880684)
+2022-01-03 22:14:42| 203.1|  5.0|INFORM|FFS writer: Completed 40.6% of intermediate processing
+2022-01-03 22:14:47| 208.1|  5.0|INFORM|FFS writer: Completed 81.86% of intermediate processing
+2022-01-03 22:14:49| 210.4|  2.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:14:49| 210.4|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:14:49| 210.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:14:49| 210.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:14:49| 210.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NM.tif'
+2022-01-03 22:14:49| 210.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:14:49| 210.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:14:49| 210.5|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:14:49| 210.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4230, 4230)
+2022-01-03 22:14:49| 210.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00040659987770749073, 0.0002244145705824766)
+2022-01-03 22:14:49| 210.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 700000), (200000, 800000) to (-6.941516110571508, 56.09825434481833), (-5.221598627868823, 57.047527978382206)
+2022-01-03 22:14:54| 215.5|  5.0|INFORM|FFS writer: Completed 41.93% of intermediate processing
+2022-01-03 22:14:59| 220.6|  5.1|INFORM|FFS writer: Completed 85.03% of intermediate processing
+2022-01-03 22:15:01| 222.3|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:15:01| 222.3|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:15:01| 222.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:15:01| 222.3|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:15:01| 222.3|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NN.tif'
+2022-01-03 22:15:01| 222.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:15:01| 222.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:15:01| 222.5|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:15:01| 222.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4140, 4140)
+2022-01-03 22:15:01| 222.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0004072586478424915, 0.00022452386046438412)
+2022-01-03 22:15:01| 222.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 700000), (300000, 800000) to (-5.298767571109549, 56.15056892654965), (-3.6127167690416337, 57.0800977088722)
+2022-01-03 22:15:06| 227.5|  5.0|INFORM|FFS writer: Completed 44.49% of intermediate processing
+2022-01-03 22:15:11| 232.5|  5.0|INFORM|FFS writer: Completed 88.98% of intermediate processing
+2022-01-03 22:15:12| 233.7|  1.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:15:12| 233.8|  0.1|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:15:12| 233.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:15:12| 233.8|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:15:12| 233.8|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NO.tif'
+2022-01-03 22:15:12| 233.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:15:12| 233.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:15:13| 233.8|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:15:13| 233.9|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4047, 4048)
+2022-01-03 22:15:13| 233.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00040758818738245733, 0.00022457899739956937)
+2022-01-03 22:15:13| 233.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 700000), (400000, 800000) to (-3.65137037523315, 56.18210658604889), (-2.001453392708963, 57.090977788524945)
+2022-01-03 22:15:18| 238.9|  5.0|INFORM|FFS writer: Completed 46.99% of intermediate processing
+2022-01-03 22:15:23| 243.9|  5.0|INFORM|FFS writer: Completed 94.78% of intermediate processing
+2022-01-03 22:15:23| 244.4|  0.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:15:23| 244.4|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:15:23| 244.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:15:23| 244.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:15:23| 244.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NR.tif'
+2022-01-03 22:15:23| 244.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:15:23| 244.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:15:23| 244.6|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:15:23| 244.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4223, 4223)
+2022-01-03 22:15:23| 244.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00039724846321377734, 0.00022444762313606764)
+2022-01-03 22:15:23| 244.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 600000), (200000, 700000) to (-6.8259689426255985, 55.202768597910016), (-5.148388682473817, 56.150610910413626)
+2022-01-03 22:15:28| 249.6|  5.0|INFORM|FFS writer: Completed 42.48% of intermediate processing
+2022-01-03 22:15:33| 254.6|  5.0|INFORM|FFS writer: Completed 84.34% of intermediate processing
+2022-01-03 22:15:35| 256.4|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:15:35| 256.5|  0.1|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:15:35| 256.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:15:35| 256.5|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:15:35| 256.5|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NS.tif'
+2022-01-03 22:15:35| 256.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:15:35| 256.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:15:35| 256.6|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:15:35| 256.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4135, 4136)
+2022-01-03 22:15:35| 256.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003978642230291098, 0.00022455638393362648)
+2022-01-03 22:15:35| 256.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 600000), (300000, 700000) to (-5.2214249956305805, 55.253552432908904), (-3.5758585691821825, 56.18209308047445)
+2022-01-03 22:15:40| 261.6|  5.0|INFORM|FFS writer: Completed 44.78% of intermediate processing
+2022-01-03 22:15:45| 266.6|  5.0|INFORM|FFS writer: Completed 87.27% of intermediate processing
+2022-01-03 22:15:47| 268.4|  1.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:15:47| 268.4|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:15:47| 268.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:15:47| 268.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:15:47| 268.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NT.tif'
+2022-01-03 22:15:47| 268.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:15:47| 268.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:15:47| 268.6|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:15:47| 268.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4046, 4046)
+2022-01-03 22:15:47| 268.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00039817331311927116, 0.000224611602132219)
+2022-01-03 22:15:47| 268.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 600000), (400000, 700000) to (-3.61259026086162, 55.28383337805965), (-2.0015810359810486, 56.1926119202866)
+2022-01-03 22:15:52| 273.6|  5.0|INFORM|FFS writer: Completed 39% of intermediate processing
+2022-01-03 22:15:57| 278.6|  5.0|INFORM|FFS writer: Completed 78.12% of intermediate processing
+2022-01-03 22:16:00| 281.3|  2.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:16:00| 281.4|  0.1|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:16:00| 281.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:16:00| 281.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:16:00| 281.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NU.tif'
+2022-01-03 22:16:00| 281.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:16:00| 281.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:16:00| 281.5|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:16:00| 281.5|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4045, 4046)
+2022-01-03 22:16:00| 281.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003981736862002774, 0.0002246112037198173)
+2022-01-03 22:16:00| 281.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 600000), (500000, 700000) to (-2.001599766965979, 55.28405960917925), (-0.3905890325996564, 56.192611928225915)
+2022-01-03 22:16:05| 286.6|  5.1|INFORM|FFS writer: Completed 38.91% of intermediate processing
+2022-01-03 22:16:10| 291.6|  5.0|INFORM|FFS writer: Completed 77.6% of intermediate processing
+2022-01-03 22:16:13| 294.5|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:16:13| 294.5|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:16:13| 294.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:16:13| 294.5|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:16:13| 294.5|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NW.tif'
+2022-01-03 22:16:13| 294.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:16:13| 294.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:16:13| 294.6|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:16:13| 294.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4215, 4216)
+2022-01-03 22:16:13| 294.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003884142757809135, 0.00022448394437149318)
+2022-01-03 22:16:13| 294.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 500000), (200000, 600000) to (-6.716834548723263, 54.30730183044127), (-5.079279962030931, 55.25350165596711)
+2022-01-03 22:16:18| 299.6|  5.0|INFORM|FFS writer: Completed 35.49% of intermediate processing
+2022-01-03 22:16:23| 304.6|  5.0|INFORM|FFS writer: Completed 70.67% of intermediate processing
+2022-01-03 22:16:28| 308.9|  4.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:16:28| 308.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:16:28| 308.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:16:28| 308.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:16:28| 308.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NX.tif'
+2022-01-03 22:16:28| 308.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:16:28| 308.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:16:28| 309.1|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:16:28| 309.1|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4131, 4131)
+2022-01-03 22:16:28| 309.1|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003889887849120474, 0.00022459061024497065)
+2022-01-03 22:16:28| 309.1|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 500000), (300000, 600000) to (-5.148383527976808, 54.35616085011455), (-3.54147085750514, 55.28394466103652)
+2022-01-03 22:16:33| 314.2|  5.1|INFORM|FFS writer: Completed 37.13% of intermediate processing
+2022-01-03 22:16:38| 319.1|  4.9|INFORM|FFS writer: Completed 72.81% of intermediate processing
+2022-01-03 22:16:41| 322.8|  3.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:16:41| 322.8|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:16:41| 322.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:16:41| 322.8|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:16:41| 322.8|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NY.tif'
+2022-01-03 22:16:41| 322.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:16:41| 322.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:16:42| 323.0|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:16:42| 323.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4044, 4045)
+2022-01-03 22:16:42| 323.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003892793631463406, 0.0002246456650296551)
+2022-01-03 22:16:42| 323.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 500000), (400000, 600000) to (-3.5759697354573996, 54.385648990798785), (-2.001334711530452, 55.29411606017871)
+2022-01-03 22:16:47| 328.0|  5.0|INFORM|FFS writer: Completed 39.24% of intermediate processing
+2022-01-03 22:16:52| 333.0|  5.0|INFORM|FFS writer: Completed 78.33% of intermediate processing
+2022-01-03 22:16:54| 335.9|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:16:54| 335.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:16:54| 335.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:16:54| 335.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:16:54| 335.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\NZ.tif'
+2022-01-03 22:16:54| 335.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:16:54| 335.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:16:55| 336.0|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:16:55| 336.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4044, 4044)
+2022-01-03 22:16:55| 336.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00038927859368726424, 0.00022464498762318682)
+2022-01-03 22:16:55| 336.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 500000), (500000, 600000) to (-2.001556729649332, 54.385651745471165), (-0.42731409677803533, 55.29411607541933)
+2022-01-03 22:17:00| 341.1|  5.1|INFORM|FFS writer: Completed 39.09% of intermediate processing
+2022-01-03 22:17:05| 346.1|  5.0|INFORM|FFS writer: Completed 78.04% of intermediate processing
+2022-01-03 22:17:07| 348.9|  2.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:17:07| 348.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:17:07| 348.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:17:07| 348.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:17:07| 348.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\OV.tif'
+2022-01-03 22:17:07| 348.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:17:07| 348.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:17:08| 349.0|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:17:08| 349.1|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4131, 4131)
+2022-01-03 22:17:08| 349.1|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003889917098113319, 0.00022459091011001878)
+2022-01-03 22:17:08| 349.1|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 500000), (600000, 600000) to (-0.46167772381046535, 54.356206196434385), (1.1452470294201467, 55.28399124609887)
+2022-01-03 22:17:13| 354.1|  5.0|INFORM|FFS writer: Completed 36.72% of intermediate processing
+2022-01-03 22:17:18| 359.1|  5.0|INFORM|FFS writer: Completed 73.56% of intermediate processing
+2022-01-03 22:17:21| 362.7|  3.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:17:21| 362.7|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:17:21| 362.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:17:21| 362.7|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:17:21| 362.7|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SC.tif'
+2022-01-03 22:17:21| 362.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:17:21| 362.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:17:21| 362.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:17:21| 362.9|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4127, 4127)
+2022-01-03 22:17:21| 362.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00038059513602599007, 0.00022462611505297885)
+2022-01-03 22:17:21| 362.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 400000), (300000, 500000) to (-5.079333312993195, 53.45861104401094), (-3.508617186613934, 54.38564302083458)
+2022-01-03 22:17:26| 367.9|  5.0|INFORM|FFS writer: Completed 36.95% of intermediate processing
+2022-01-03 22:17:31| 372.9|  5.0|INFORM|FFS writer: Completed 73.73% of intermediate processing
+2022-01-03 22:17:35| 376.5|  3.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:17:35| 376.5|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:17:35| 376.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:17:35| 376.5|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:17:35| 376.5|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SD.tif'
+2022-01-03 22:17:35| 376.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:17:35| 376.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:17:35| 376.6|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:17:35| 376.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4043, 4043)
+2022-01-03 22:17:35| 376.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003808657089202165, 0.00022467913815413696)
+2022-01-03 22:17:35| 376.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 400000), (400000, 500000) to (-3.5413500349304825, 53.48710724392856), (-2.001509973766047, 54.39548499948574)
+2022-01-03 22:17:40| 381.6|  5.0|INFORM|FFS writer: Completed 39% of intermediate processing
+2022-01-03 22:17:45| 386.7|  5.1|INFORM|FFS writer: Completed 78.06% of intermediate processing
+2022-01-03 22:17:48| 389.4|  2.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:17:48| 389.4|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:17:48| 389.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:17:48| 389.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:17:48| 389.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SE.tif'
+2022-01-03 22:17:48| 389.5|  0.1|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:17:48| 389.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:17:48| 389.7|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:17:48| 389.7|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4042, 4043)
+2022-01-03 22:17:48| 389.7|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00038086508676393385, 0.00022467943927090294)
+2022-01-03 22:17:48| 389.7|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 400000), (500000, 500000) to (-2.001512449776636, 53.48733072346611), (-0.4616749039900514, 54.395485016999096)
+2022-01-03 22:17:53| 394.6|  4.9|INFORM|FFS writer: Completed 35.6% of intermediate processing
+2022-01-03 22:17:58| 399.6|  5.0|INFORM|FFS writer: Completed 73.94% of intermediate processing
+2022-01-03 22:18:02| 403.0|  3.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:18:02| 403.0|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:18:02| 403.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:18:02| 403.0|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:18:02| 403.0|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SH.tif'
+2022-01-03 22:18:02| 403.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:18:02| 403.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:18:02| 403.2|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:18:02| 403.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4123, 4123)
+2022-01-03 22:18:02| 403.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00037264457987429793, 0.00022466126886692693)
+2022-01-03 22:18:02| 403.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 300000), (300000, 400000) to (-5.013969425614166, 52.560915463396746), (-3.4775558227924352, 53.48719387493509)
+2022-01-03 22:18:07| 408.2|  5.0|INFORM|FFS writer: Completed 37.03% of intermediate processing
+2022-01-03 22:18:12| 413.2|  5.0|INFORM|FFS writer: Completed 73.95% of intermediate processing
+2022-01-03 22:18:15| 416.7|  3.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:18:15| 416.7|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:18:15| 416.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:18:15| 416.7|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:18:15| 416.7|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SJ.tif'
+2022-01-03 22:18:15| 416.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:18:15| 416.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:18:15| 416.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:18:15| 416.9|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4041, 4042)
+2022-01-03 22:18:15| 416.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00037289818698311154, 0.00022471566092968192)
+2022-01-03 22:18:15| 416.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 300000), (400000, 400000) to (-3.508577307839999, 52.58864269650054), (-2.0013228360542623, 53.496718682317386)
+2022-01-03 22:18:20| 421.9|  5.0|INFORM|FFS writer: Completed 39.14% of intermediate processing
+2022-01-03 22:18:25| 426.9|  5.0|INFORM|FFS writer: Completed 78.12% of intermediate processing
+2022-01-03 22:18:28| 429.8|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:18:28| 429.8|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:18:28| 429.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:18:28| 429.8|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:18:28| 429.8|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SK.tif'
+2022-01-03 22:18:28| 429.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:18:28| 429.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:18:29| 430.0|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:18:29| 430.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4041, 4042)
+2022-01-03 22:18:29| 430.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00037289477868717553, 0.00022471726444579887)
+2022-01-03 22:18:29| 430.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 300000), (500000, 400000) to (-2.0014662715850258, 52.58863623224884), (-0.49422557613146223, 53.496718697874314)
+2022-01-03 22:18:34| 435.0|  5.0|INFORM|FFS writer: Completed 38.5% of intermediate processing
+2022-01-03 22:18:39| 440.0|  5.0|INFORM|FFS writer: Completed 77.77% of intermediate processing
+2022-01-03 22:18:41| 442.9|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:18:41| 442.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:18:41| 442.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:18:41| 442.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:18:41| 442.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SM.tif'
+2022-01-03 22:18:41| 442.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:18:41| 442.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:18:42| 443.0|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:18:42| 443.0|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4196, 4196)
+2022-01-03 22:18:42| 443.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003646292304558793, 0.00022458777368364086)
+2022-01-03 22:18:42| 443.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 200000), (200000, 300000) to (-6.423339031263517, 51.61862489453082), (-4.893354780270647, 52.56099519290738)
+2022-01-03 22:18:47| 448.0|  5.0|INFORM|FFS writer: Completed 35.84% of intermediate processing
+2022-01-03 22:18:52| 453.0|  5.0|INFORM|FFS writer: Completed 71.37% of intermediate processing
+2022-01-03 22:18:56| 457.1|  4.1|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:18:56| 457.1|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:18:56| 457.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:18:56| 457.1|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:18:56| 457.1|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SN.tif'
+2022-01-03 22:18:56| 457.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:18:56| 457.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:18:56| 457.2|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:18:56| 457.3|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4119, 4119)
+2022-01-03 22:18:56| 457.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00036510593920184326, 0.0002246986674012761)
+2022-01-03 22:18:56| 457.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 200000), (300000, 300000) to (-4.952026826275667, 51.663053322757115), (-3.448155462703274, 52.58858713378297)
+2022-01-03 22:19:01| 462.3|  5.0|INFORM|FFS writer: Completed 37.02% of intermediate processing
+2022-01-03 22:19:06| 467.3|  5.0|INFORM|FFS writer: Completed 74.16% of intermediate processing
+2022-01-03 22:19:09| 470.8|  3.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:19:09| 470.8|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:19:09| 470.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:19:09| 470.8|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:19:09| 470.8|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SO.tif'
+2022-01-03 22:19:09| 470.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:19:09| 470.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:19:10| 470.9|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:19:10| 471.0|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4040, 4040)
+2022-01-03 22:19:10| 471.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00036534262767676294, 0.00022475446006865147)
+2022-01-03 22:19:10| 471.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 200000), (400000, 300000) to (-3.4775273305943304, 51.6898001867958), (-2.0015431147802083, 52.59780820547315)
+2022-01-03 22:19:15| 476.0|  5.0|INFORM|FFS writer: Completed 38.78% of intermediate processing
+2022-01-03 22:19:20| 481.0|  5.0|INFORM|FFS writer: Completed 77.87% of intermediate processing
+2022-01-03 22:19:22| 483.9|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:19:22| 483.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:19:22| 483.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:19:22| 483.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:19:22| 483.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SP.tif'
+2022-01-03 22:19:23| 483.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:19:23| 483.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:19:23| 484.1|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:19:23| 484.2|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4040, 4040)
+2022-01-03 22:19:23| 484.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00036534361733528745, 0.00022475396654993333)
+2022-01-03 22:19:23| 484.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 200000), (500000, 300000) to (-2.0014277898020283, 51.6898021882926), (-0.525439575767467, 52.59780821315433)
+2022-01-03 22:19:28| 489.1|  4.9|INFORM|FFS writer: Completed 38.01% of intermediate processing
+2022-01-03 22:19:33| 494.1|  5.0|INFORM|FFS writer: Completed 76.93% of intermediate processing
+2022-01-03 22:19:36| 497.1|  3.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:19:36| 497.1|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:19:36| 497.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:19:36| 497.1|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:19:36| 497.1|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SR.tif'
+2022-01-03 22:19:36| 497.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:19:36| 497.1|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:19:36| 497.2|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:19:36| 497.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4190, 4190)
+2022-01-03 22:19:36| 497.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003575074247372468, 0.00022462356233582395)
+2022-01-03 22:19:36| 497.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 100000), (200000, 200000) to (-6.335501941014239, 50.721934010591085), (-4.8375458313651745, 51.66310673677819)
+2022-01-03 22:19:41| 502.3|  5.1|INFORM|FFS writer: Completed 37.61% of intermediate processing
+2022-01-03 22:19:46| 507.3|  5.0|INFORM|FFS writer: Completed 80.52% of intermediate processing
+2022-01-03 22:19:48| 509.6|  2.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:19:48| 509.6|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:19:48| 509.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:19:48| 509.6|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:19:48| 509.6|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SS.tif'
+2022-01-03 22:19:48| 509.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:19:48| 509.6|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:19:48| 509.8|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:19:48| 509.8|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4115, 4115)
+2022-01-03 22:19:48| 509.8|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.000357954538781004, 0.00022473325294145223)
+2022-01-03 22:19:48| 509.8|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 100000), (300000, 200000) to (-4.893279439311852, 50.76504456893893), (-3.4202965122280213, 51.68982190479301)
+2022-01-03 22:19:53| 514.9|  5.1|INFORM|FFS writer: Completed 36.76% of intermediate processing
+2022-01-03 22:19:58| 519.8|  4.9|INFORM|FFS writer: Completed 73.46% of intermediate processing
+2022-01-03 22:20:02| 523.4|  3.6|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:20:02| 523.4|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:20:02| 523.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:20:02| 523.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:20:02| 523.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\ST.tif'
+2022-01-03 22:20:02| 523.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:20:02| 523.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:20:02| 523.7|  0.3|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:20:02| 523.7|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4039, 4039)
+2022-01-03 22:20:02| 523.7|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003581757888185133, 0.00022478897156814247)
+2022-01-03 22:20:02| 523.7|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 100000), (400000, 200000) to (-3.448078533263261, 50.79082730380408), (-2.0014065222252855, 51.698749959967806)
+2022-01-03 22:20:07| 528.6|  4.9|INFORM|FFS writer: Completed 39.24% of intermediate processing
+2022-01-03 22:20:12| 533.6|  5.0|INFORM|FFS writer: Completed 78.38% of intermediate processing
+2022-01-03 22:20:15| 536.4|  2.8|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:20:15| 536.5|  0.1|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:20:15| 536.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:20:15| 536.5|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:20:15| 536.5|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SU.tif'
+2022-01-03 22:20:15| 536.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:20:15| 536.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:20:15| 536.6|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:20:15| 536.6|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4039, 4039)
+2022-01-03 22:20:15| 536.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00035817974314620324, 0.0002247860840352885)
+2022-01-03 22:20:15| 536.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 100000), (500000, 200000) to (-2.001391405995692, 50.790838984462596), (-0.5547034234281771, 51.69874997788113)
+2022-01-03 22:20:20| 541.6|  5.0|INFORM|FFS writer: Completed 39.21% of intermediate processing
+2022-01-03 22:20:25| 546.6|  5.0|INFORM|FFS writer: Completed 78.03% of intermediate processing
+2022-01-03 22:20:28| 549.5|  2.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:20:28| 549.5|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:20:28| 549.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:20:28| 549.5|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:20:28| 549.5|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SV.tif'
+2022-01-03 22:20:28| 549.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:20:28| 549.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:20:28| 549.5|  0.0|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:20:28| 549.6|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4255, 4255)
+2022-01-03 22:20:28| 549.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.000350105753443389, 0.0002244939863733477)
+2022-01-03 22:20:28| 549.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (0, 0), (100000, 100000) to (-7.6625278630421185, 49.76675648161154), (-6.172827882140498, 50.72197839363013)
+2022-01-03 22:20:33| 554.6|  5.0|INFORM|FFS writer: Completed 34.82% of intermediate processing
+2022-01-03 22:20:38| 559.7|  5.1|INFORM|FFS writer: Completed 69.75% of intermediate processing
+2022-01-03 22:20:42| 564.0|  4.3|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:20:42| 564.0|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:20:42| 564.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:20:42| 564.0|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:20:42| 564.0|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SW.tif'
+2022-01-03 22:20:42| 564.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:20:42| 564.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:20:43| 564.2|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:20:43| 564.2|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4184, 4184)
+2022-01-03 22:20:43| 564.2|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003507374807171451, 0.00022465726144067145)
+2022-01-03 22:20:43| 564.2|  0.0|INFORM|Reprojector: Recalculating raster extents from (100000, 0), (200000, 100000) to (-6.252080164915913, 49.82506023725856), (-4.784594545595378, 50.765026219126334)
+2022-01-03 22:20:48| 569.2|  5.0|INFORM|FFS writer: Completed 35.65% of intermediate processing
+2022-01-03 22:20:53| 574.2|  5.0|INFORM|FFS writer: Completed 71.6% of intermediate processing
+2022-01-03 22:20:57| 578.2|  4.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:20:57| 578.2|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:20:57| 578.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:20:57| 578.2|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:20:57| 578.2|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SX.tif'
+2022-01-03 22:20:57| 578.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:20:57| 578.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:20:57| 578.4|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:20:57| 578.4|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4112, 4112)
+2022-01-03 22:20:57| 578.4|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003511598355125946, 0.00022476739839048224)
+2022-01-03 22:20:57| 578.4|  0.0|INFORM|Reprojector: Recalculating raster extents from (200000, 0), (300000, 100000) to (-4.837489844346824, 49.86666022469435), (-3.393520600719035, 50.79090376687601)
+2022-01-03 22:21:02| 583.4|  5.0|INFORM|FFS writer: Completed 37.06% of intermediate processing
+2022-01-03 22:21:07| 588.5|  5.1|INFORM|FFS writer: Completed 74.34% of intermediate processing
+2022-01-03 22:21:10| 591.9|  3.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:21:10| 591.9|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:21:10| 591.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:21:10| 591.9|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:21:10| 591.9|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SY.tif'
+2022-01-03 22:21:10| 591.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:21:10| 591.9|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:21:10| 592.0|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:21:10| 592.1|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4037, 4038)
+2022-01-03 22:21:10| 592.1|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003513675176677547, 0.0002248202248136171)
+2022-01-03 22:21:10| 592.1|  0.0|INFORM|Reprojector: Recalculating raster extents from (300000, 0), (400000, 100000) to (-3.4201196451882536, 49.89195216692976), (-2.00129760884586, 50.79955141450233)
+2022-01-03 22:21:15| 597.1|  5.0|INFORM|FFS writer: Completed 39.41% of intermediate processing
+2022-01-03 22:21:20| 602.1|  5.0|INFORM|FFS writer: Completed 85.63% of intermediate processing
+2022-01-03 22:21:22| 603.6|  1.5|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:21:22| 603.6|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:21:22| 603.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:21:22| 603.6|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:21:22| 603.6|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\SZ.tif'
+2022-01-03 22:21:22| 603.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:21:22| 603.6|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:21:22| 603.7|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:21:22| 603.7|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4037, 4038)
+2022-01-03 22:21:22| 603.7|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00035137071193337086, 0.00022481990527755034)
+2022-01-03 22:21:22| 603.7|  0.0|INFORM|Reprojector: Recalculating raster extents from (400000, 0), (500000, 100000) to (-2.0013603718357262, 49.89195346491859), (-0.5825254370487747, 50.79955142252406)
+2022-01-03 22:21:27| 608.7|  5.0|INFORM|FFS writer: Completed 47.85% of intermediate processing
+2022-01-03 22:21:32| 613.8|  5.1|INFORM|FFS writer: Completed 95.81% of intermediate processing
+2022-01-03 22:21:33| 614.2|  0.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:21:33| 614.2|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:21:33| 614.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:21:33| 614.2|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:21:33| 614.2|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\TA.tif'
+2022-01-03 22:21:33| 614.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:21:33| 614.2|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:21:33| 614.3|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:21:33| 614.3|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4126, 4127)
+2022-01-03 22:21:33| 614.3|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003805971721365888, 0.00022462478986952367)
+2022-01-03 22:21:33| 614.3|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 400000), (600000, 500000) to (-0.49436231625448596, 53.45889222036713), (1.0763622131532162, 54.385694103368785)
+2022-01-03 22:21:38| 619.3|  5.0|INFORM|FFS writer: Completed 45.41% of intermediate processing
+2022-01-03 22:21:43| 624.4|  5.1|INFORM|FFS writer: Completed 91.08% of intermediate processing
+2022-01-03 22:21:44| 625.3|  0.9|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:21:44| 625.3|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:21:44| 625.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:21:44| 625.3|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:21:44| 625.3|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\TF.tif'
+2022-01-03 22:21:44| 625.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:21:44| 625.3|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:21:44| 625.4|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:21:44| 625.5|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4122, 4123)
+2022-01-03 22:21:44| 625.5|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00037264387257981085, 0.0002246639874373244)
+2022-01-03 22:21:44| 625.5|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 300000), (600000, 400000) to (-0.5253313473840463, 52.56117816633705), (1.0110793392625137, 53.4872431225537)
+2022-01-03 22:21:49| 630.5|  5.0|INFORM|FFS writer: Completed 45.58% of intermediate processing
+2022-01-03 22:21:54| 635.5|  5.0|INFORM|FFS writer: Completed 90.63% of intermediate processing
+2022-01-03 22:21:55| 636.5|  1.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:21:55| 636.5|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:21:55| 636.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:21:55| 636.5|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:21:55| 636.5|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\TG.tif'
+2022-01-03 22:21:55| 636.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:21:55| 636.5|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:21:55| 636.7|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:21:55| 636.7|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4409, 4008)
+2022-01-03 22:21:55| 636.7|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00039060567589364333, 0.00021416062640669601)
+2022-01-03 22:21:55| 636.7|  0.0|INFORM|Reprojector: Recalculating raster extents from (600000, 300000), (700000, 400000) to (0.9491746013130559, 52.51455075657997), (2.5147221502947783, 53.458784958407094)
+2022-01-03 22:22:00| 641.7|  5.0|INFORM|FFS writer: Completed 42.61% of intermediate processing
+2022-01-03 22:22:05| 646.7|  5.0|INFORM|FFS writer: Completed 86.07% of intermediate processing
+2022-01-03 22:22:07| 648.4|  1.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:22:07| 648.4|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:22:07| 648.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:22:07| 648.4|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:22:07| 648.4|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\TL.tif'
+2022-01-03 22:22:07| 648.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:22:07| 648.4|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:22:07| 648.5|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:22:07| 648.6|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4119, 4119)
+2022-01-03 22:22:07| 648.6|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00036510663781143135, 0.00022469916484266247)
+2022-01-03 22:22:07| 648.6|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 200000), (600000, 300000) to (-0.5547074478620398, 51.663096851330955), (0.9491667932832458, 52.588632711317885)
+2022-01-03 22:22:12| 653.6|  5.0|INFORM|FFS writer: Completed 44.47% of intermediate processing
+2022-01-03 22:22:17| 658.6|  5.0|INFORM|FFS writer: Completed 89.09% of intermediate processing
+2022-01-03 22:22:18| 659.8|  1.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:22:18| 659.8|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:22:18| 659.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:22:18| 659.8|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:22:18| 659.8|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\TM.tif'
+2022-01-03 22:22:18| 659.8|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:22:18| 659.8|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:22:18| 659.9|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:22:18| 660.0|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4357, 4043)
+2022-01-03 22:22:18| 660.0|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00037875513441410614, 0.00021643800605412777)
+2022-01-03 22:22:18| 660.0|  0.0|INFORM|Reprojector: Recalculating raster extents from (600000, 200000), (700000, 300000) to (0.8904814131330072, 51.618064103071724), (2.4217884215692385, 52.561084495449556)
+2022-01-03 22:22:23| 664.9|  4.9|INFORM|FFS writer: Completed 43.4% of intermediate processing
+2022-01-03 22:22:28| 669.9|  5.0|INFORM|FFS writer: Completed 81.01% of intermediate processing
+2022-01-03 22:22:31| 672.6|  2.7|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:22:31| 672.7|  0.1|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:22:31| 672.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:22:31| 672.7|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:22:31| 672.7|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\TQ.tif'
+2022-01-03 22:22:31| 672.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:22:31| 672.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:22:31| 672.9|  0.2|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:22:31| 672.9|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4115, 4115)
+2022-01-03 22:22:31| 672.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003579555345579856, 0.00022473040306288819)
+2022-01-03 22:22:31| 672.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 100000), (600000, 200000) to (-0.5826053742978645, 50.76509796729072), (0.890381650408246, 51.689863575894506)
+2022-01-03 22:22:36| 677.8|  4.9|INFORM|FFS writer: Completed 35.33% of intermediate processing
+2022-01-03 22:22:41| 682.7|  4.9|INFORM|FFS writer: Completed 70.91% of intermediate processing
+2022-01-03 22:22:45| 686.7|  4.0|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:22:45| 686.7|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:22:45| 686.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:22:45| 686.7|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:22:45| 686.7|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\TR.tif'
+2022-01-03 22:22:45| 686.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:22:45| 686.7|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:22:45| 686.8|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:22:45| 686.9|  0.1|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4329, 4058)
+2022-01-03 22:22:45| 686.9|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.0003694871449149571, 0.00021756071562425974)
+2022-01-03 22:22:45| 686.9|  0.0|INFORM|Reprojector: Recalculating raster extents from (600000, 100000), (700000, 200000) to (0.8347563233791142, 50.72136429936453), (2.33413515744401, 51.66318463730195)
+2022-01-03 22:22:50| 691.9|  5.0|INFORM|FFS writer: Completed 35.34% of intermediate processing
+2022-01-03 22:22:55| 696.8|  4.9|INFORM|FFS writer: Completed 70.7% of intermediate processing
+2022-01-03 22:22:59| 701.0|  4.2|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:22:59| 701.0|  0.0|INFORM|Creating reader for format: TIFF (Tagged Image File Format)
+2022-01-03 22:22:59| 701.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `TIFF'
+2022-01-03 22:22:59| 701.0|  0.0|INFORM|FME API version of module 'TIFF' matches current internal version (3.8 20210302)
+2022-01-03 22:22:59| 701.0|  0.0|INFORM|TIFF reader: Opening file 'C:\Users\Nadia\Desktop\STUDIA\BAZY_DANYCH_PRZESTRZENNYCH\ras250_gb\ras250_gb\data\TV.tif'
+2022-01-03 22:22:59| 701.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader TIFF_1[TIFF] set to `OSGB-GPS-2015-OSTN15' as read from input data
+2022-01-03 22:22:59| 701.0|  0.0|INFORM|Coordinate System `OSGB-GPS-2015-OSTN15' parameters: CS_NAME=`OSGB-GPS-2015-OSTN15' DESC_NM=`British National Grid (ETRS89 <-> OSGB via OSTN15)' DT_NAME=`ETRS89/01' GROUP=`EUROPE' MAP_SCL=`1' MAX_LAT=`61.14' MAX_LNG=`2.88' MIN_LAT=`49.75' MIN_LNG=`-9.2' PROJ=`OSTN15' QUAD=`1' SCL_RED=`1' SOURCE=`Ordnance Survey, Transformations and OSGM15 User Guide' UNIT=`METER' ZERO_X=`0.001' ZERO_Y=`0.001'
+2022-01-03 22:23:00| 701.1|  0.1|INFORM|Reprojector: Reprojecting from source coordinate system 'OSGB-GPS-2015-OSTN15' to destination coordinate system 'LL-WGS84'
+2022-01-03 22:23:00| 701.1|  0.0|INFORM|Reprojector: Recalculating raster number of rows and columns from (4000, 4000) to (4111, 4112)
+2022-01-03 22:23:00| 701.1|  0.0|INFORM|Reprojector: Recalculating raster cell size from (25, 25) to (0.00035115905792805876, 0.00022476243359227898)
+2022-01-03 22:23:00| 701.1|  0.0|INFORM|Reprojector: Recalculating raster extents from (500000, 0), (600000, 100000) to (-0.6091141086951576, 49.86694446148377), (0.83485193750502, 50.79094282598163)
+2022-01-03 22:23:05| 706.2|  5.1|INFORM|FFS writer: Completed 37.46% of intermediate processing
+2022-01-03 22:23:10| 711.1|  4.9|INFORM|FFS writer: Completed 74.72% of intermediate processing
+2022-01-03 22:23:13| 714.5|  3.4|INFORM|FFS writer: Completed 100% of intermediate processing
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|MULTI_READER(TIFF_1): Done reading 56 features from 56 readers
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 56 features from 1 readers
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Emptying factory pipeline
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 56 input feature(s), wrote 56 output feature(s): 56 matched merge filters, 56 were routed to output, 0 could not be routed.
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |TIFF_TIFF_1 Splitter (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |TIFF_TIFF_1 Feature Counter -1 16 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Reprojector (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Reprojector_REPROJECTED Feature Counter -1 18 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |RasterExtentsCoercer_RasterExtents (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |RasterExtentsCoercer_Rejector (TestFactory): Tested 56 input feature(s) -- 0 feature(s) passed and 56 feature(s) failed
+2022-01-03 22:23:13| 714.5|  0.0|STATS |RasterExtentsCoercer_EXTENTS Feature Counter -1 19 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |RasterExtentsCoercer_<REJECTED> Feature Counter -1 2147680273 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |AttributeCreator_OUTPUT Feature Counter -1 10 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor Input Input Collector (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_Input1641244278 Input Splitter (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_Input Feature Counter 0 12 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_ParameterFetcher (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_ParameterFetcher_OUTPUT Feature Counter 0 13 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Optional `process_group' method not present; not called
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Optional `close' method not present; not called
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_PythonCaller_OUTPUT Feature Counter 0 14 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_Tester (TestFactory): Tested 56 input feature(s) -- 56 feature(s) passed and 0 feature(s) failed
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_Tester_PASSED Feature Counter 0 15 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_Tester_FAILED Feature Counter 0 20 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_AttributeRemover (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_AttributeRemover_OUTPUT Feature Counter 0 16 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_DateFormatter (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_DateFormatter_OUTPUT Feature Counter 0 19 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_AttributeRemover_2 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_AttributeRemover_2_OUTPUT Feature Counter 0 18 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_AttributeRenamer_OUTPUT Feature Counter 0 17 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_Output1641244278 Output Collector (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_<Rejected>1641244278 Output Collector (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor Output Output Renamer/Nuker (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor <Rejected> Output Renamer/Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_Output Feature Counter -1 12 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |FilePropertyExtractor_<Rejected> Feature Counter -1 2147680265 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_TIFF -1 15 -1  0  6869f451c92e1c46670ccbae67776757d872e23f.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_TIFF -1 15 -1  0  6869f451c92e1c46670ccbae67776757d872e23f.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_TIFF -1 15 -1  0  6869f451c92e1c46670ccbae67776757d872e23f.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_PythonCaller 0 6 fo 0 OUTPUT  0  b4b9f422bc745b8c1911c8e7b9b5dbad466d7b68.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_PythonCaller 0 6 fo 0 OUTPUT  0  b4b9f422bc745b8c1911c8e7b9b5dbad466d7b68.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_PythonCaller 0 6 fo 0 OUTPUT  0  b4b9f422bc745b8c1911c8e7b9b5dbad466d7b68.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_ParameterFetcher 0 5 fo 0 OUTPUT  0  3bf68c0931c18c04b2409bdf1cbe00f7e2718f57.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_ParameterFetcher 0 5 fo 0 OUTPUT  0  3bf68c0931c18c04b2409bdf1cbe00f7e2718f57.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_ParameterFetcher 0 5 fo 0 OUTPUT  0  3bf68c0931c18c04b2409bdf1cbe00f7e2718f57.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_Reprojector -1 3 fo 0 REPROJECTED  0  550bfb1aacc73c66182917fcb83c582011a598f0.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_Reprojector -1 3 fo 0 REPROJECTED  0  550bfb1aacc73c66182917fcb83c582011a598f0.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_Reprojector -1 3 fo 0 REPROJECTED  0  550bfb1aacc73c66182917fcb83c582011a598f0.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_RasterExtentsCoercer -1 17 fo 0 EXTENTS  0  e8925c5ce74a613b1720b63dd10f5e97446fd584.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_RasterExtentsCoercer -1 17 fo 0 EXTENTS  0  e8925c5ce74a613b1720b63dd10f5e97446fd584.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_RasterExtentsCoercer -1 17 fo 0 EXTENTS  0  e8925c5ce74a613b1720b63dd10f5e97446fd584.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_AttributeCreator -1 7 fo 0 OUTPUT  0  273d7b38ab6bae061705a149ef3d5083debeb741.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_AttributeCreator -1 7 fo 0 OUTPUT  0  273d7b38ab6bae061705a149ef3d5083debeb741.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_AttributeCreator -1 7 fo 0 OUTPUT  0  273d7b38ab6bae061705a149ef3d5083debeb741.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_Tester 0 7 fo 0 PASSED  0  01b8ade14ec279395c153d5ae830c4c8c2d0f8e6.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_Tester 0 7 fo 0 PASSED  0  01b8ade14ec279395c153d5ae830c4c8c2d0f8e6.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_Tester 0 7 fo 0 PASSED  0  01b8ade14ec279395c153d5ae830c4c8c2d0f8e6.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_Input 0 2 0  0  fa50b9c1367ae5ec7044abc3d0993603bc538054.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_Input 0 2 0  0  fa50b9c1367ae5ec7044abc3d0993603bc538054.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_Input 0 2 0  0  fa50b9c1367ae5ec7044abc3d0993603bc538054.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_DateFormatter 0 11 fo 0 OUTPUT  0  b71d71f91b9278d3a23906164d0e7d3866bd7f13.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_DateFormatter 0 11 fo 0 OUTPUT  0  b71d71f91b9278d3a23906164d0e7d3866bd7f13.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_DateFormatter 0 11 fo 0 OUTPUT  0  b71d71f91b9278d3a23906164d0e7d3866bd7f13.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_AttributeRemover 0 9 fo 0 OUTPUT  0  cb404aef74635cd66a3a3a53f0bbd7d98df4bf84.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_AttributeRemover 0 9 fo 0 OUTPUT  0  cb404aef74635cd66a3a3a53f0bbd7d98df4bf84.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\FilePropertyExtractor_AttributeRemover 0 9 fo 0 OUTPUT  0  cb404aef74635cd66a3a3a53f0bbd7d98df4bf84.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_FilePropertyExtractor -1 9 fo 0 Output  0  5b499713a53658c99a5489d9f673df3cf8656f65.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_FilePropertyExtractor -1 9 fo 0 Output  0  5b499713a53658c99a5489d9f673df3cf8656f65.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_FilePropertyExtractor -1 9 fo 0 Output  0  5b499713a53658c99a5489d9f673df3cf8656f65.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Stored 56 feature(s) to FME feature store file `C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_AttributeCreator_2 -1 11 fo 0 OUTPUT  0  4b3cd6da8caceaf14d7e557d4b4fef392dfc283a.ffsupdating'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_AttributeCreator_2 -1 11 fo 0 OUTPUT  0  4b3cd6da8caceaf14d7e557d4b4fef392dfc283a.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\Nadia\AppData\Local\Temp\wb-cache-zad2-rPAKds\Main_AttributeCreator_2 -1 11 fo 0 OUTPUT  0  4b3cd6da8caceaf14d7e557d4b4fef392dfc283a.fsi'
+2022-01-03 22:23:13| 714.5|  0.0|STATS |AttributeCreator_2_OUTPUT Feature Counter -1 14 (TeeFactory): Cloned 56 input feature(s) into 56 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 56 input feature(s), wrote 56 output feature(s): 0 matched merge filters, 56 were routed to output, 0 could not be routed.
+2022-01-03 22:23:13| 714.5|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.5|  0.0|INFORM|Feature output statistics for `FILEGDB' writer using keyword `FILEGDB_1':
+2022-01-03 22:23:13| 714.6|  0.1|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|STATS |                               Features Written
+2022-01-03 22:23:13| 714.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|STATS |Extents                                                                     56
+2022-01-03 22:23:13| 714.6|  0.0|STATS |==============================================================================
+2022-01-03 22:23:13| 714.6|  0.0|STATS |Total Features Written                                                      56
+2022-01-03 22:23:13| 714.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|STATS |                            Features Read Summary
+2022-01-03 22:23:13| 714.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|STATS |TIFF                                                                        56
+2022-01-03 22:23:13| 714.6|  0.0|STATS |==============================================================================
+2022-01-03 22:23:13| 714.6|  0.0|STATS |Total Features Read                                                         56
+2022-01-03 22:23:13| 714.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|STATS |                           Features Written Summary
+2022-01-03 22:23:13| 714.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|STATS |Extents                                                                     56
+2022-01-03 22:23:13| 714.6|  0.0|STATS |==============================================================================
+2022-01-03 22:23:13| 714.6|  0.0|STATS |Total Features Written                                                      56
+2022-01-03 22:23:13| 714.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-01-03 22:23:13| 714.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2022-01-03 22:23:13| 714.6|  0.0|WARN  |-~                                                                             ~-
+2022-01-03 22:23:13| 714.6|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2022-01-03 22:23:13| 714.6|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2022-01-03 22:23:13| 714.6|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2022-01-03 22:23:13| 714.6|  0.0|WARN  |-~                                                                             ~-
+2022-01-03 22:23:13| 714.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2022-01-03 22:23:13| 714.6|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (56 feature(s) output)
+2022-01-03 22:23:13| 714.6|  0.0|INFORM|FME Session Duration: 11 minutes 54.3 seconds. (CPU: 697.7s user, 16.9s system)
+2022-01-03 22:23:13| 714.6|  0.0|INFORM|END - ProcessID: 772, peak process memory usage: 169984 kB, current process memory usage: 111976 kB
